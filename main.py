@@ -4,7 +4,7 @@
 # It will parse the date within the XML payload, compare it to the current date
 # and correct it if necessary before forwarding to QPM.
 # Author: Rob Daglio
-# Repository: http://sckgit.fastinc.com/QPM/aloha-ncr-pos
+# Repository: https://github.com/robDaglio/aloha_ncr_pos/tree/master
 # ======================================================================
 
 import json
