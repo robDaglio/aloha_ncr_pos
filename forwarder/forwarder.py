@@ -20,7 +20,7 @@ class Forwarder:
     async def forward_request(self) -> None:
         payload = await self.processing_queue.get()
 
-        new_request = f'http://localhost:{cfg.forwarding_port}/instore/posXml?activity=IncomingXML&XMLData={payload}'
+        new_request = f''
         log.info(f'Forwarding request: {new_request}')
 
         try:
